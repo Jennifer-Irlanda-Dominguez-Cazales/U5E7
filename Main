@@ -1,8 +1,8 @@
-package u5e7;
+package u5e7;//Ejercicio E6
 import java.util.Scanner;
-/**
+/* //Ejercicio E6
  * @author Dominguez Cazales Jennifer
- */
+ *///Ejercicio E6
 public class U5E7 {
      public static void main(String[] args) {
         Operaciones muestra= new Operaciones();
@@ -45,7 +45,7 @@ public class U5E7 {
                 default:
                     System.out.println(opc+" No es una opcion");
                         break;
-            }          
-        }
-    }   
+            } //Ejercicio E6         
+        }//Ejercicio E6
+    }  //Ejercicio E6 
 }
