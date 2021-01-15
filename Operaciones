@@ -1,16 +1,15 @@
 
-package u5e7;
+package u5e7;//Ejercicio E6
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
-
+//Ejercicio E6
 /**
- *
  * @author Dominguez Cazales Jennifer
  */
-public class Operaciones {
+public class Operaciones {//Ejercicio E6
         Scanner leer=new Scanner(System.in);
         Random r = new Random();
         List <Integer>lista = new ArrayList<Integer>();
@@ -59,12 +58,11 @@ public class Operaciones {
                 auxiliar.set(i,lista.get(i-j));
             }
             lista=auxiliar;
-
         }
          if (count==0) {
              System.out.println("La lista esta vacia, ingresa algo");
         }else{
          System.out.println(lista);
-         }
-    }   
-}
+         }//Ejercicio E6
+    }   //Ejercicio E6
+}//Ejercicio E6
