@@ -1,0 +1,51 @@
+package u5e7;
+import java.util.Scanner;
+/**
+ * @author Dominguez Cazales Jennifer
+ */
+public class U5E7 {
+     public static void main(String[] args) {
+        Operaciones muestra= new Operaciones();
+        Scanner leer=new Scanner(System.in);
+        boolean paso=true;
+        int opc;
+        System.out.println("----Metodo Radix con Listas----");       
+        while(paso){            
+            System.out.println("1.-Ingresar los Numeros");
+            System.out.println("2.-Mostrar lista");
+            System.out.println("3.-Ordenar los Numeros");
+            System.out.println("4.-Salir");
+            opc=leer.nextInt();
+            switch(opc){
+                case 1:
+                    System.out.println("\n"
+                            + "---*---");
+                     muestra.Ingresar();
+                     System.out.println("---*---\n");
+                    break;
+                //
+                case 2:
+                    System.out.println("\n"
+                            + "---*---");
+                     muestra.Mostrar();
+                     System.out.println("---*---\n");
+                    break;
+                //
+                case 3:
+                    System.out.println("\n"
+                            + "---*---");
+                    muestra.radix1();
+                    System.out.println("---*---\n");
+                    break;
+                //
+                case 4:
+                    paso=false;
+                    break;
+                //
+                default:
+                    System.out.println(opc+" No es una opcion");
+                        break;
+            }          
+        }
+    }   
+}
